@@ -1,19 +1,21 @@
 # Merve TOPAL
 Dijital Çizer / İllüstratör
-[info[at]mervetopal.net](info@mervetopal.net)
+
+[info@mervetopal.net](info[at]mervetopal.net)
 
 ### Sosyal Medya Hesapları
-[https://www.linkedin.com/in/mervetopal](linkedin)
 
-[http://fb.com/merve.topal.3551](facebook)
+[linkedin](https://www.linkedin.com/in/mervetopal)
 
-[https://twitter.com/mervetpal](twitter)
+[facebook](http://fb.com/merve.topal.3551)
 
-[http://mervetopal.tumblr.com/](tumblr)
+[twitter](https://twitter.com/mervetpal)
 
-[http://be.net/mervetopal](behance)
+[tumblr](http://mervetopal.tumblr.com/)
 
-[https://www.instagram.com/mrve.topal/](instagram)
+[behance](http://be.net/mervetopal)
+
+[instagram](https://www.instagram.com/mrve.topal/)
 
 ### Etiketler
 * dijital çizim 
