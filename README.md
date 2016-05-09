@@ -5,17 +5,12 @@ Dijital Çizer / İllüstratör
 
 ### Sosyal Medya Hesapları
 
-[linkedin](https://www.linkedin.com/in/mervetopal)
-
-[facebook](http://fb.com/merve.topal.3551)
-
-[twitter](https://twitter.com/mervetpal)
-
-[tumblr](http://mervetopal.tumblr.com/)
-
-[behance](http://be.net/mervetopal)
-
-[instagram](https://www.instagram.com/mrve.topal/)
+* [linkedin](https://www.linkedin.com/in/mervetopal)
+* [facebook](http://fb.com/merve.topal.3551)
+* [twitter](https://twitter.com/mervetpal)
+* [tumblr](http://mervetopal.tumblr.com/)
+* [behance](http://be.net/mervetopal)
+* [instagram](https://www.instagram.com/mrve.topal/)
 
 ### Etiketler
 * dijital çizim 
