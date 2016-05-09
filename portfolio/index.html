@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Merve TOPAL | Portfolio</title>
+<style>
+body{background:#34495e;}
+form{width:460px;padding:0;margin:-37px 0 0 -235px;position:absolute;left:50%;top:50%;background:#2c3e50;border-left:10px solid #2c3e50;}
+i:before{color:#fff;font-size:50px;padding:0;margin:0 2px;}
+input{margin:22px 20px;width:120px;border:none;padding:10px;font-size:11px;float:left;background:#435d6e;color:#fff;}
+a{margin:0;border:none;padding:33px 30px;background:#cfd9e0;color:#2c3e50;text-decoration:none;font-size:11px;
+	font-family:arial;font-weight: bold;float:left;transition:.7s all;}
+a:hover{background:#809db0;}
+#logo-name{margin:20px 12px 20px 7px;float:left;width:70px;}
+#profile-foto{border-radius:50px;width:60px;height:60px;margin:10px 0px 10px 10px;float:left;}
+div{background:#fff;display: inline-block;float:left;}
+
+@media (min-width: 0px) and (max-width: 500px) {
+div{width:170px;padding:10px 10px 10px 20px;}
+form{width:200px;margin:0 auto;left:50%;margin-left:-100px;margin-top:-110px;border:none;}
+input{position:relative;width:160px;margin:10px;text-align:center;}
+a{width:140px;text-align: center;padding:25px 30px;}
+}
+
+</style>
+</head>
+<body>
+<form>
+<div>
+<img id="profile-foto" src="img/profile.jpg"/>
+<img id="logo-name"  src="img/bg-logo.png"/>
+</div>
+<input type="password" id="pass" placeholder="Şifre" autofocus>
+<a href="#" id="button">GİRİŞ YAP</a>
+</form>
+<script src="js/jquery.js"></script>
+	<script>
+			$(document).ready(function(){
+				$("#button").click(function(){
+					control();
+				})
+				$("#pass").keyup(function(e){
+					if(e.keyCode==13){
+						control();
+					}
+				});  
+			});
+			function control(){
+				var pass=$.trim($("#pass").val());
+					if(pass=="mervetopal2015" || pass=="MERVETOPAL2015" || pass=="Mervetopal2015" || pass=="MerveTopal2015"){
+						localStorage.Login = true;
+						window.location.assign("portfolio.html");
+					}else{
+						alert("Şifre Hatalı");
+					}
+			}
+		</script>
+		<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter32454255 = new Ya.Metrika({ id:32454255, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, ut:"noindex" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/32454255?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+</body>
+</html>

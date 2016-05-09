@@ -1,0 +1,114 @@
+@charset "utf-8";
+.clear { clear: both; }
+.clearfix:after { content: "."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:block; }
+.aleft { float:left; }
+.aright { float:right; }
+.acenter { margin:0 auto !important; display:inline-block; }
+.alignnone { clear:both; font-size:0; line-height:0; margin:0; padding:0; border:0; height:0; width:0; }
+.centered { text-align:center; }
+i {display:inline-block;}
+body{background:#34495e;}
+
+.mix{display: none;}
+
+ul{list-style:none;margin:0;padding:0;display:inline-block;}
+ul li{float:left;margin:0;padding:0;display:block;display:inline-block;}
+ul li a img{margin:0;padding:0;vertical-align:bottom;opacity:.7;transition:.5s all;width:100%;height:100%}
+ul li a:hover img{opacity:1;}
+
+#logo { position:relative; float:left; z-index:1;margin:0;padding:0;}
+#logo a { display:block;float:left;}
+#logo a img{float:left;}
+#logo a #logo-name{margin:32px 5px;float:left;}
+#logo a #profile-foto{border-radius:50px;margin:10px;float:left;}
+
+header{display:block;position:fixed;background:#fff;top:0;left:0;width:100%;border-bottom:1px solid #34495e;z-index:500;}
+footer{display:block;position:fixed;background:#fff;bottom:0;left:0;width:100%;border-top:1px solid #34495e;z-index:600;}
+#social i{color:#34495e;}
+
+#content{padding:0;margin:140px 0 60px 0;}
+#content ul li{width:10%;}
+
+header ul {display:inline-block;float:right;margin:40px;}
+header ul li span{font-size:16px;border:1px solid #34495e;padding:10px;margin:5px;color:#34495e;text-decoration:none;transition:.5s all;display:inline-block;cursor:pointer;}
+header ul li span:hover{color:#fff;background:#34495e;border:1px solid #fff;}
+header ul li span.active{color:#fff;background:#34495e;border:1px solid #fff;}
+
+
+footer ul {display:block;padding:0;width:300px;float:left;margin:10px;}
+footer ul li a{font-size:20px;display:block;padding:5px;color:#34495e;text-decoration:none;}
+footer ul li a i:before{color:#34495e;transition:.5s all;}
+footer ul li a:hover i:before{color:#888;}
+
+footer p{color:#34495e;float:right;padding:5px;color:#34495e;margin:15px;font-size:12px;}
+	
+#smallmenu{display:none;}
+
+/* content */
+
+
+@media (min-width: 2000px) and (max-width: 5000px) {
+	#content ul li{width:10%;}	
+
+}
+
+@media (min-width: 1600px) and (max-width: 2000px) {
+	#content ul li{width:20%;}
+    
+}
+
+@media (min-width: 800px) and (max-width: 1600px) {
+	#content ul li{width:25%;}
+    
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+	#content ul li{width:50%;}
+    
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+	#content ul li{width:100%;}
+    
+}
+
+
+/* header menu */
+
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+header ul li span{font-size:14px;}
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+header ul li span{font-size:10px;margin:3px;}
+header ul{margin:40px 10px;}
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+header ul li span{font-size:10px;margin:3px;padding:5px;}
+header ul{margin:20px 5px;}
+#logo a #logo-name{margin:20px 0;width:50px;}
+#logo a #profile-foto{width:50px;}
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+header{position:relative;display:block;height:94px;width:100%;padding:0;}
+header ul{display:none;position:relative;width:100%;height:275px;padding:20px 0 0 0;margin:0;background:#fff;border-bottom:10px solid #34495e;}
+header ul li{padding:0;margin:0;width:100%;overflow:hidden;}
+header ul li span{margin:0;padding:10px 0;display:block;width:100%;text-align:center;border:none;border-top:1px solid #34495e;}
+header ul li span:hover{color:#fff;background:#34495e;border:none;border-top:1px solid #fff;}
+header ul li span.active{color:#fff;background:#34495e;border:none;border-top:1px solid #fff;}
+footer{position:relative;display:block;width:100%;height:100px;}
+#social{display:block;width:225px;position:relative;margin:20px auto 10px auto;float:none;}
+footer p{display:block;width:100%;text-align:center;margin:0;padding:0;}
+#logo a #logo-name{margin:27px 0;width:70px;}
+#logo a #profile-foto{width:70px;}
+header #smallmenu {display:block;float:right;font-size:30px;top:30px;right:30px;position:absolute;}
+#content{padding:0;margin:10px 0 10px 0;}
+
+}
+
+
+
