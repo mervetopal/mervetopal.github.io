@@ -4,10 +4,15 @@ Dijital Çizer / İllüstratör
 
 ### Sosyal Medya Hesapları
 [https://www.linkedin.com/in/mervetopal](linkedin)
+
 [http://fb.com/merve.topal.3551](facebook)
+
 [https://twitter.com/mervetpal](twitter)
+
 [http://mervetopal.tumblr.com/](tumblr)
+
 [http://be.net/mervetopal](behance)
+
 [https://www.instagram.com/mrve.topal/](instagram)
 
 ### Etiketler
