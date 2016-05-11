@@ -100,8 +100,8 @@ header ul li{padding:0;margin:0;width:100%;overflow:hidden;}
 header ul li span{margin:0;padding:10px 0;display:block;width:100%;text-align:center;border:none;border-top:1px solid #34495e;}
 header ul li span:hover{color:#fff;background:#34495e;border:none;border-top:1px solid #fff;}
 header ul li span.active{color:#fff;background:#34495e;border:none;border-top:1px solid #fff;}
-footer{position:relative;display:block;width:100%;height:100px;}
-#social{display:block;width:225px;position:relative;margin:20px auto 10px auto;float:none;}
+footer{display:block;width:100%;height:100px;text-align:center;}
+#social{display:inline-block;margin:20px auto 10px auto;float:none;}
 footer p{display:block;width:100%;text-align:center;margin:0;padding:0;}
 #logo a #logo-name{margin:27px 0;width:70px;}
 #logo a #profile-foto{width:70px;}
